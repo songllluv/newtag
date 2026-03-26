@@ -1,0 +1,19 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./popup.css">
+    </head>
+    <body style="width: 250px;">
+        <h2>设置</h2>
+        <h3>背景颜色</h3>
+        <input type="color" id="bgColorPicker" name="bgColorPicker" value="#ffffff">
+        <h3>搜索栏阴影</h3>
+        <h4>不透明度: <span id="shadowValue">0.1</span></h4>
+        <input type="range" id="shadowRange" name="shadowRange" min="0" max="0.5" value="0.1" step="0.01">
+        <h4>扩散半径：<span id="shadowRadiusValue">6</span></h4>
+        <input type="range" id="shadowRadiusRange" name="shadowRadiusRange" min="0" max="20" value="6" step="1">
+        <script src="./popup.js"></script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab",
+  "version": "1.0",
+  "description": "极简、快速的新标签页，用 Bing 搜索，并支持主题个性化设置。",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "./img/icon16.png",
+    "48": "./img/icon48.png",
+    "128": "./img/icon128.png"
+  },
+  "action":{
+    "default_popup": "./popup.html"
+  },
+  "permissions":["storage"]
+}
